@@ -26,6 +26,11 @@ div {
   display: block;
 }
 
+.fonttitle{
+  font-family: SimHei;
+  font-weight:300;
+}
+
 address img.big-author {
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
@@ -178,6 +183,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   line-height: 1.4;
   white-space: nowrap;
   display: inline-block;
+  font-family: SimSun;
+  font-style:normal;
 }
 
 body {
