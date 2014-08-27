@@ -1,0 +1,31 @@
+---
+layout: home
+---
+<div>
+    <address>
+        <img src="/images/avatar.jpg" class="big-avatar">
+        <p>
+<!--            <strong>
+                <a rel="author" href="/about" title="" target="_blank" style="font-size: 1.5em;">tommy</a>
+            </strong>-->
+            <br/>
+            <br/>
+            <span class="muted">——<br/>"will code for bananas.<br>Live in Shanghai.Like money, stock, programming, jewelry, snooker &amp; girl."</span>
+        </p>
+    </address>
+</div>
+<div class="home">
+  <h1 class="page-heading">Latest News</h1>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</div>

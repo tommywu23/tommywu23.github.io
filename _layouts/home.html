@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+{% include header.html %}
+
+<div class="blog-cover" style="background-image: url('/images/shanghai-cover.jpg')">
+    <section>
+        <div class="container">
+            <h1>Code Life,<i class="love"></i>Shanghai,So Simple</h1>
+            <h3>tommyknight.cn</h3>
+        </div>
+    </section>
+</div>
+
+<div class="page-content">
+    <div class="wrapper">
+        {{ content }}
+    </div>
+</div>
+
+{% include footer.html %}
+
+</body>
+
+</html>
