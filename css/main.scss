@@ -26,6 +26,18 @@ div {
   display: block;
 }
 
+address img.big-author {
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  width: 180px;
+  height: 180px;
+  margin: 100px 20px 0 0;
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+}
+
 address img.big-avatar {
   -moz-border-radius: 75px;
   -webkit-border-radius: 75px;
