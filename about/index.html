@@ -1,0 +1,57 @@
+---
+layout: about
+---
+<div>
+    <address>
+        <img src="/images/author.jpg" class="big-author">
+        <p style="position:relative;top:7em; left: 3em;">
+            <strong>
+                <span class="font-title font-title-size">吴锦晟</span><span class="font-title-size"> (Tommy wu)</span>
+            </strong>
+            <br/>
+            <span class="muted">
+                现任职于上海金桥信息股份有限公司 技术中心
+            </span>
+            <br/>
+            <br/>
+            <i class="tag">80后屌丝</i>&nbsp;<i class="tag">一线码农</i>&nbsp;<i class="tag">Rock&amp;Rap</i>&nbsp;<i class="tag">业余斯诺克球手</i><br/>
+            <i class="tag">hard worker</i>&nbsp;<i class="tag">Race</i>
+        </p>
+    </address>
+    <div class="about-timeline-main">
+        <div id="timeline">
+            <p class="line-end" data-translate="recently">最近</p>
+            <ul class="item-list">
+                {% for item in site.categories.works %}
+                <li class="item">
+                    <div class="meta">
+                        <i class="fa fa-{{item.icon}}"></i>
+                        <p class="date">{{item.date | date: "%Y-%m"}}</p>
+                        <i class="arrow-left"></i>
+                    </div>
+                    <div class="content">
+                        <header>
+                            <div class="links">
+                                {% if item.gitrepo %}<iframe src="http://ghbtns.com/github-btn.html?user=mytharcher&amp;repo={{item.gitrepo}}&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="82" height="20" class="link-item"></iframe>{% endif %}
+                            </div>
+                            <h3>{% if item.link %}<a href="{{item.link}}" target="_blank">{{item.title}}</a>{% else %}{{item.title}}{% endif %}</h3>
+                            <p class="tags">
+                                {% for tag in item.tags %}<span class="tag">{{tag}}</span>{% endfor %}
+                            </p>
+                        </header>
+                        {% if item.figures %}
+                        <figure>
+                            {% for img in item.figures %}<img src="{{img.src}}" {% if img.height %}height="{{img.height}}" {% endif %}style="max-width:{{100 | divided_by:forloop.length}}%;" />{% endfor %}
+                        </figure>
+                        {% endif %}
+                        <article>
+                            {{item.content}}
+                        </article>
+                    </div>
+                </li>
+                {% endfor %}
+               </ul>
+            <p class="line-end">...</p>
+        </div>
+    </div>
+</div>
