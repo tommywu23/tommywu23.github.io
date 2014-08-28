@@ -22,7 +22,7 @@ layout: about
         <div id="timeline">
             <p class="line-end" data-translate="recently">最近</p>
             <ul class="item-list">
-                {% for category in site.categories %}
+                {% for item in site.category.works %}
                  <li class="item">
                     <div class="meta">
                         <i class="fa fa-stack-overflow"></i>
@@ -31,13 +31,13 @@ layout: about
                     </div>
                     <div class="content">
                         <header>
-                            <h3>{{ category | first }}</h3>
-<!--                            <p class="tags">
+<!--                            <h3>{{ category | first }}</h3>
+                            <p class="tags">
                                 {% for tag in item.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
                             </p>-->
                         </header>
-                        <article>AAA
-                      <!--     {{ item.content }}-->
+                        <article>
+                           {{ item.content }}
                         </article>
                     </div>
                 </li>
