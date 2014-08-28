@@ -4,7 +4,7 @@ category: works
 icon: building-o
 tags: [ERP,CRM,CallCenter,B/S,Java,Tomcat]
 figures:
-  - src: "http://mbed.qiniudn.com/yanjunyi.com/img/works/baidu.png"
+  - src: "../images/anltech.png"
     height: 55
 public: false
 ---
