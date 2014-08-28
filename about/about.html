@@ -34,7 +34,7 @@ layout: about
                         <header>
                             <h3>{% item.title %}</h3>
                             <p class="tags">
-                                Node
+                                {% for tag in item.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
                             </p>
                         </header>
                         <article>
