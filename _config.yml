@@ -13,6 +13,9 @@ disqus: disqus.com/embed.js
 
 # Build settings
 markdown: kramdown
+highlighter: null
+safe: false
+permalink: /blog/posts/:title.html
 
 exclude:
   - README.md
