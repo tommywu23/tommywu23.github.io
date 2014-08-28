@@ -23,6 +23,7 @@ layout: about
         <div id="timeline">
             <p class="line-end" data-translate="recently">最近</p>
             <ul class="item-list">
+                {% for item in site.categories %}
                  <li class="item">
                     <div class="meta">
                         <i class="fa fa-stack-overflow"></i>
@@ -31,16 +32,17 @@ layout: about
                     </div>
                     <div class="content">
                         <header>
-                            <h3>金桥多媒体融合信息云共享平台</h3>
+                            <h3>{% item.title %}</h3>
                             <p class="tags">
                                 Node
                             </p>
                         </header>
                         <article>
-                           暂无资料...
+                           {{ item.content }}
                         </article>
                     </div>
                 </li>
+                {% endfor %}
                </ul>
             <p class="line-end">...</p>
         </div>
