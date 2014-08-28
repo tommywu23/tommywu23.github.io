@@ -8,6 +8,11 @@ url: "http://tommyknight.cn" # the base hostname & protocol for your site
 google_analytics: UA-53906068-1
 twitter_username: tommywu23
 github_username:  tommywu23
+host: tommyknight.cn
+disqus: disqus.com/embed.js
 
 # Build settings
-markdown: RDiscount
+markdown: kramdown
+
+exclude:
+  - README.md
