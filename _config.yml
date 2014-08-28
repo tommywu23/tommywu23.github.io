@@ -15,7 +15,7 @@ disqus: disqus.com/embed.js
 markdown: kramdown
 highlighter: null
 safe: false
-permalink: /blog/
+permalink: /blog/post/:title.html
 
 exclude:
   - README.md
