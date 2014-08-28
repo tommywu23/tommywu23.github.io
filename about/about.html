@@ -1,7 +1,6 @@
 ---
 layout: about
 ---
-
 <div>
     <address>
         <img src="/images/author.jpg" class="big-author">
@@ -23,7 +22,7 @@ layout: about
         <div id="timeline">
             <p class="line-end" data-translate="recently">最近</p>
             <ul class="item-list">
-                {% for item in site.categories %}
+                {% for category in site.categories %}
                  <li class="item">
                     <div class="meta">
                         <i class="fa fa-stack-overflow"></i>
@@ -32,13 +31,13 @@ layout: about
                     </div>
                     <div class="content">
                         <header>
-                            <h3>{% item.title %}</h3>
-                            <p class="tags">
+                            <h3>{{ category | first }}</h3>
+<!--                            <p class="tags">
                                 {% for tag in item.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
-                            </p>
+                            </p>-->
                         </header>
-                        <article>
-                           {{ item.content }}
+                        <article>AAA
+                      <!--     {{ item.content }}-->
                         </article>
                     </div>
                 </li>
