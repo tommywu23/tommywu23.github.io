@@ -1,6 +1,6 @@
 ﻿---
 title: 金桥多媒体信息融合云共享平台
-categories: works
+category: works
 icon: building-o
 tags: [云计算,流媒体,Groupware,MCU,RESTful,Node,Backbone,Bootstrap,WPF,C#]
 figures:
