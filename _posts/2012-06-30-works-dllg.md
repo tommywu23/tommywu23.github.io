@@ -3,7 +3,7 @@ title: 获得软件工程硕士学位
 category: works
 icon: building-o
 figures:
-  - src: "../images/dlut.png"
+  - src: "../images/dlut.jpg"
     height: 55
 public: false
 ---
