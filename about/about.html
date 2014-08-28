@@ -22,11 +22,11 @@ layout: about
         <div id="timeline">
             <p class="line-end" data-translate="recently">最近</p>
             <ul class="item-list">
-                {% for item in site.category.works %}
+                {% for item in site.categories.works %}
                  <li class="item">
                     <div class="meta">
                         <i class="fa fa-stack-overflow"></i>
-                        <p class="date">2014-07</p>
+                        <p class="date">{{item.date | date: "%Y-%m"}}</p>
                         <i class="arrow-left"></i>
                     </div>
                     <div class="content">
