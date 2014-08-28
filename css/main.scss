@@ -199,23 +199,7 @@ body {
   font-size: 18px;
 }
 
-#timeline {
-  position: relative;
-  margin-left: 100px;
-  padding-left: 50px;
-}
 
-#timeline p.line-end {
-  position: relative;
-  left: -92px;
-  width: 80px;
-  border-radius: 10px;
-  border: 3px solid #fff;
-  background: #fff;
-  box-shadow: 0 1px 2px rgba(0,0,0,.1);
-  color: #666;
-  text-align: center;
-}
 
 // Using media queries with like this:
 // @include media-query($palm) {
@@ -235,5 +219,6 @@ body {
         "base",
         "layout",
         "syntax-highlighting",
-        "icons"
+        "icons",
+        "timeline"
 ;
