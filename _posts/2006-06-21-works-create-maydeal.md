@@ -1,11 +1,12 @@
 ---
-title: 创建Maydeal.com,54md.com
+title: 美迪医疗网-maydeal.com|环球医网-54md.com
 category: works
 icon: heart
 tags: [医疗机械,互联网,Web2.0,ASP.NET]
+link: "http://maydeal.com/"
 figures:
-  - src: "../images/maydeal.png"
-    height: 55
+  - src: "../images/maydeal.jpg"
+  - src: "../images/54md.jpg"
 public: false
 ---
 
