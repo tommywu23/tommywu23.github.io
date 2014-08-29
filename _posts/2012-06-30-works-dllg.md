@@ -1,10 +1,9 @@
 ---
-title: 毕业于大连理工大学
-category: works
-icon: building-o
-figures:
+title: 完成在职研究生学业
   - src: "../images/dlut.jpg"
     height: 100
+category: works
+icon: building-o
 public: false
 ---
 
