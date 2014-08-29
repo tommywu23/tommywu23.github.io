@@ -4,7 +4,7 @@ category: works
 icon: building-o
 figures:
   - src: "../images/dlut.jpg"
-    height: 155
+    height: 72
 public: false
 ---
 
