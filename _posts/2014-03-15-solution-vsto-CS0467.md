@@ -19,7 +19,9 @@ warning CS0467: Ambiguity between method 'Microsoft.Office.Interop.Excel._Workbo
 Microsoft.Office.Interop.Word.Application 改成 Microsoft.Office.Interop.Word._Application。
 
 [参考1]
+
 [参考2]
+
 [参考3]
 
 [参考1]: http://stackoverflow.com/questions/8303969/how-to-eliminate-warning-about-ambiguity
