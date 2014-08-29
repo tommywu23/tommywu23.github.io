@@ -236,42 +236,12 @@ i.arrow-left{
     margin-left: 400px;
     padding:50px;
   }
-  aside{
-    position:fixed;
-    width: 400px;
-    left:0;
-    top:0;
-    height:100%;
-    overflow:hidden;
-    padding:30px 50px;
-    text-align: right;
-    box-shadow:-5px 0 5px rgba(0,0,0,.1) inset;
-  }
-
-  aside .block{
-    float: right;
-    width: 100%;
-    max-width: 300px;
-  }
-  aside .block:after{
-    display: block;
-    content: "";
-    clear: both;
-    height: 0;
-    overflow: hidden;
-    visibility: hidden;
-  }
 }
 
 @media screen and (max-width: 1023px) {
   .main{
     padding: 1em;
   }
-  aside{
-    position: relative;
-    padding: 1em;
-  }
-
   #contact{
     width: auto;
   }

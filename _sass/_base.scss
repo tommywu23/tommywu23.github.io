@@ -8,8 +8,6 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
 /**
  * Basic styling
  */
@@ -44,20 +42,12 @@ img {
     vertical-align: middle;
 }
 
-
-
 /**
  * Figures
  */
-figure > img {
-    display: block;
-}
-
 figcaption {
     font-size: $small-font-size;
 }
-
-
 
 /**
  * Lists
