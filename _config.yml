@@ -15,7 +15,7 @@ disqus: disqus.com/embed.js
 markdown: kramdown
 highlighter: null
 safe: false
-permalink: /blog/post/:title.html
+permalink: /blog/:title.html
 paginate: 5
 paginate_path: "page:num"
 
