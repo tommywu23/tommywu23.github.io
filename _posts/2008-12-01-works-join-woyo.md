@@ -1,7 +1,7 @@
 ---
 title: 加入我友网
 category: works
-icon: building-o
+icon: exchange
 tags: [Web,SNS]
 figures:
   - src: "../images/woyo.png"

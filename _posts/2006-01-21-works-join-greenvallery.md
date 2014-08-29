@@ -1,7 +1,7 @@
 ---
 title: 加入绿谷集团
 category: works
-icon: building-o
+icon: exchange
 tags: [医药集团,信息技术]
 figures:
   - src: "../images/greenvallery.png"

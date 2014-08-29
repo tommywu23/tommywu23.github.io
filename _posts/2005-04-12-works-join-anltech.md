@@ -1,7 +1,7 @@
 ---
 title: 加入安凌科技
 category: works
-icon: building-o
+icon: exchange
 tags: [ERP,CRM,CallCenter,B/S,Java,Tomcat]
 figures:
   - src: "../images/anltech.png"

@@ -1,7 +1,7 @@
 ---
 title: 获得软件工程硕士学位
 category: works
-icon: exchange
+icon: book
 public: false
 ---
 

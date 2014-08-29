@@ -1,7 +1,7 @@
 ---
 title: 加入金桥信息
 category: works
-icon: building-o
+icon: exchange
 tags: [系统集成,信息技术]
 figures:
   - src: "../images/shgbit.jpg"

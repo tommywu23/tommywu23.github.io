@@ -1,7 +1,7 @@
 ---
 title: 页游-封神无敌
 category: works
-icon: heart
+icon: star
 tags: [WebGame,Red5,SFS,Terracotta,Java,AS3]
 link: "http://fswd.365ub.com/"
 figures:

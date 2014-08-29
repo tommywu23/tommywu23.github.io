@@ -1,7 +1,7 @@
 ---
 title: 加入浪潮国际
 category: works
-icon: building-o
+icon: exchange
 tags: [Microsoft,BillGates,Office,Redmond]
 figures:
   - src: "../images/inspur.png"
