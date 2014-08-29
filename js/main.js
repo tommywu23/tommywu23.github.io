@@ -2,10 +2,8 @@ $(window).scroll(function() {
     var scrollBottom = $(window).scrollTop() + $(window).height();
     
     if ($(window).scrollTop() > 100) {
-        alert('add');
         $('body').addClass('nav-hidden');
     } else {
-        alert('remove');
         $('body').removeClass('nav-hidden');
     }
 });
