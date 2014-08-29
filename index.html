@@ -15,7 +15,7 @@ layout: home
     {% for post in paginator.posts %}
       {% if post.category != 'works' %}
       <li>
-        <span class="post-meta">{{ post.page }}</span>
+        <span class="post-meta">{{ post.num }}</span>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
