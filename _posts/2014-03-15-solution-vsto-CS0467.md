@@ -18,10 +18,10 @@ warning CS0467: Ambiguity between method 'Microsoft.Office.Interop.Excel._Workbo
 
 Microsoft.Office.Interop.Word.Application 改成 Microsoft.Office.Interop.Word._Application。
 
-[S1]
-[S2]
-[S3]
+[参考1]
+[参考2]
+[参考3]
 
-[S1]: http://stackoverflow.com/questions/8303969/how-to-eliminate-warning-about-ambiguity
-[S2]: http://stackoverflow.com/questions/8640594/compile-time-warning-when-using-microsoft-office-interop-word-document-close
-[S3]: http://stackoverflow.com/questions/10480119/warning-cs0467-when-using-microsoft-office-interop-word-document-close
+[参考1]: http://stackoverflow.com/questions/8303969/how-to-eliminate-warning-about-ambiguity
+[参考2]: http://stackoverflow.com/questions/8640594/compile-time-warning-when-using-microsoft-office-interop-word-document-close
+[参考3]: http://stackoverflow.com/questions/10480119/warning-cs0467-when-using-microsoft-office-interop-word-document-close
