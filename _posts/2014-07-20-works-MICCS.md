@@ -4,7 +4,7 @@ category: works
 icon: building-o
 tags: [云计算,流媒体,RESTful,Groupwave,Node,WPF,Backbone,Bootstrap]
 figures:
-  - src: "../images/gbtouch.png"
+  - src: "../images/gbtouch.jpg"
     height: 100
 public: false
 ---
