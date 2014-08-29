@@ -5,7 +5,7 @@ icon: building-o
 tags: [Web,SNS]
 figures:
   - src: "../images/woyo.png"
-    height: 80
+    height: 72
 public: false
 ---
 

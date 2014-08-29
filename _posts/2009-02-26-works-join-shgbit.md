@@ -5,7 +5,7 @@ icon: building-o
 tags: [系统集成,信息技术]
 figures:
   - src: "../images/shgbit.jpg"
-    height: 55
+    height: 100
 public: false
 ---
 

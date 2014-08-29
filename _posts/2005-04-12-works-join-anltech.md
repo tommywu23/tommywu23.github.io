@@ -5,7 +5,7 @@ icon: building-o
 tags: [ERP,CRM,CallCenter,B/S,Java,Tomcat]
 figures:
   - src: "../images/anltech.png"
-    height: 55
+    height: 72
 public: false
 ---
 

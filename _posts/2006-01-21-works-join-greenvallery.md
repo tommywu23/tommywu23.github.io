@@ -4,8 +4,8 @@ category: works
 icon: building-o
 tags: [医药集团,信息技术]
 figures:
-  - src: "../images/greenvallery.jpg"
-    height: 55
+  - src: "../images/greenvallery.png"
+    height: 72
 public: false
 ---
 

@@ -5,7 +5,7 @@ icon: building-o
 tags: [Microsoft,BillGates,Office,Redmond]
 figures:
   - src: "../images/inspur.png"
-    height: 55
+    height: 72
 public: false
 ---
 
