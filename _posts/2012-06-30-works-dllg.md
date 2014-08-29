@@ -5,4 +5,4 @@ icon: building-o
 public: false
 ---
 
-![Image](../images/dlut.jpg) 毕业于大连理工大学研究生院
+![Image](../images/dlut.jpg) 2009.9 ～ 2012.6 于大连理工大学研究生院在职攻读 软件工程 学位
