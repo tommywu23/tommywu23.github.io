@@ -1,5 +1,4 @@
 $(window).scroll(function() {
-    alert('aaaa');
     var scrollBottom = $(window).scrollTop() + $(window).height();
     
     if ($(window).scrollTop() > 100) {
