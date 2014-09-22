@@ -1,8 +1,16 @@
 ---
-layout: default
+layout: home
 ---
-
+<div>
+    <address>
+        <img src="/images/avatar.jpg" class="big-avatar">
+        <p>
+            <span class="muted"> <br/>--<br/>"Live in Shanghai,will code for bananas.<br>Like free, programming, money, stock, jewelry, snooker &amp; girl."</span>
+        </p>
+    </address>
+</div>
 <div class="home">
+    <h1 class="page-heading">Latest News</h1>
     <ul class="post-list">
         {% for post in paginator.posts %}
         {% if post.category != 'works' && paginator.page == 1 %}
@@ -16,4 +24,5 @@ layout: default
         {% endif %}
         {% endfor %}
     </ul>
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </div>
