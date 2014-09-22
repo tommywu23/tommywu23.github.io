@@ -10,7 +10,16 @@ layout: default
                     <i class="icon-fixed-width icon-file-text"></i>
                     " 最近发表"
                 </a>
-                <span title="文章总数">{% paginator.posts.size %}</span>
+                <span title="文章总数">{% site.posts.size %}</span>
+                <ul>
+                {% for post in paginator.posts %}
+                {% if post.category != 'works' && paginator.page == 1 %}
+                <li>
+                  <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+                <ul>
             </section>
         </aside>
     </section>
