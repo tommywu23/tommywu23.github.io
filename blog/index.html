@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="home">
+    {% _posts.size %}
     <ul class="post-list">
         {% for post in paginator.posts %}
         {% if post.category != 'works' && paginator.page == 1 %}
