@@ -10,6 +10,7 @@ twitter_username: tommywu23
 github_username:  tommywu23
 host: tommyknight.cn
 disqus: disqus.com/embed.js
+cdn_url: http://tommyknight.qiniudn.com
 
 # Build settings
 markdown: kramdown
