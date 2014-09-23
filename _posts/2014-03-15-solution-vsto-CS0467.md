@@ -2,8 +2,8 @@
 layout: post
 title:  ".NET Warning CS0467 解决方案"
 date:   2014-03-15 11:42:12
-categories: [top]
-tags:[C#,VSTO,Office]
+categories: top
+tags: [C#,VSTO,Office]
 ---
 Warning CS0467: Ambiguity between method 'Microsoft.Office.Interop.Word._Document.Close(ref object, ref object, ref object)' and non-method 'Microsoft.Office.Interop.Word.DocumentEvents2_Event.Close'. Using method group.
 
