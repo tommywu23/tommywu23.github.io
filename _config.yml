@@ -3,7 +3,7 @@ title: Coffee, Code, Life, Love Shanghai, So Simple —— tommy
 email: tommywu23@126.com
 description: The blog of professional experience in software, and my life are recorded bit by bit
 keywords: ruby, ruby on rails, java, c sharp, javascript, web, c language, linux, android, programming
-baseurl: "http://tommyknight.cn/blog/" # the subpath of your site, e.g. /blog/
+baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 url: "http://tommyknight.cn" # the base hostname & protocol for your site
 google_analytics: UA-53906068-1
 twitter_username: tommywu23
