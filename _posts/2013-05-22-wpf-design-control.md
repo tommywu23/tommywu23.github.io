@@ -2,7 +2,8 @@
 layout: post
 title:  "使用WPF设计自定义控件"
 date:   2013-05-22 20:42:12
-categories: [C#,WPF]
+categories: [top]
+tags: [C#,WPF]
 ---
   在实际工作中，WPF提供的控件并不能完全满足不同的设计需求。这时，需要我们设计自定义控件。
 

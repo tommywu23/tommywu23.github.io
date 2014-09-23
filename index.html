@@ -12,8 +12,8 @@ layout: home
 <div class="home">
   <h1 class="page-heading">Latest News</h1>
   <ul class="post-list">
-    {% for post in paginator.posts %}
-      {% if post.category != 'works' && paginator.page == 1 %}
+    {% for post in site.posts %}
+      {% if post.category == 'top' %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
