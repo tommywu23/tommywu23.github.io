@@ -2,10 +2,6 @@
     <header>
         <nav id="navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
             {% for link in site.navaigation %}
-            {% assign current = nil %}
-            {% if page.url == link.url or page.layout == link.layout %}
-            {% assign current = 'current' %}
-            {% endif %}
                 <a href="{{ link.url }}">{{ link.text }}</a>
             {% endfor %}
         </nav>
