@@ -18,7 +18,7 @@ highlighter: null
 safe: false
 permalink: /posts/:year/:month/:day/:title
 paginate: 5
-paginate_path: "page:num"
+paginate_path: "blog/page:num"
 destination: ./_site
 navigation:
 - text: Home
