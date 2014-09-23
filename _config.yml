@@ -23,7 +23,7 @@ destination: ./_site
 navigation:
 - text: Home
   url: /
-- text: Posts
+- text: Blog
   url: /posts/
 - text: Archive
   url: /archive/
