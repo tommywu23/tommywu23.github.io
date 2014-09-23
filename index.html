@@ -10,21 +10,18 @@ layout: home
     </address>
 </div>
 <div class="home">
-  <h1 class="page-heading">Latest News</h1>
+  <h1 class="page-heading">Top 5 News</h1>
   <ul class="post-list">
-      {{ site.posts.size }}
-      {% for post in site.posts limit:3 %}
-      {{ post.title }}
-<!--      {% if post.category == 'top' %}
+    {% for post in site.posts limit:5 %}
+      {% if post.category == 'top' %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       </li>
-      {% endif %}-->
+      {% endif %}
     {% endfor %}
   </ul>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<!--  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
 </div>
