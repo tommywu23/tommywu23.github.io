@@ -10,7 +10,7 @@ layout: home
     </address>
 </div>
 <div class="home">
-  <h1 class="page-heading">Latest News {{ paginator.total_posts }}</h1>
+  <h1 class="page-heading">Latest News</h1>
   <ul class="post-list">
     {% for post in paginator.posts %}
       {% if post.category != 'works' && paginator.page == 1 %}
