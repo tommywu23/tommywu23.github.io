@@ -1,11 +1,13 @@
 <section class="site-nav">
     <header>
         <nav id="navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-            <a href="/">Home</a>
-            <a href="../blog/index.html">Blog</a>
-            <a href="../work/index.html">Works</a>
-            <a href="../moments/index.html">Moments</a>
-            <a href="../about/index.html">About</a>
+            {% for link in site.navaigation %}
+            {% assign current = nil %}
+            {% if page.url == link.url or page.layout == link.layout %}
+            {% assign current = 'current' %}
+            {% endif %}
+                <a href="{{ link.url }}">{{ link.text }}</a>
+            {% endfor %}
         </nav>
     </header>
 </section>

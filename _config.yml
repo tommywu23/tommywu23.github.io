@@ -16,9 +16,19 @@ cdn_url: http://tommyknight.qiniudn.com
 markdown: kramdown
 highlighter: null
 safe: false
-permalink: /blog/:title.html
+permalink: /posts/:year/:month/:day/:title
 paginate: 5
-paginate_path: "page:num"
+paginate_path: "/posts/page:num"
+destination: ./_site
+navigation:
+- text: Home
+  url: /
+- text: Posts
+  url: /posts/
+- text: Archive
+  url: /archive/
+- text: About
+  url: /about/
 
 exclude:
   - README.md
