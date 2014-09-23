@@ -24,7 +24,7 @@ navigation:
 - text: Home
   url: /
 - text: Blog
-  url: /posts/
+  url: /blog/
 - text: Archive
   url: /archive/
 - text: About
