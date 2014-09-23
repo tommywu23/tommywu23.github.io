@@ -4,8 +4,8 @@ layout: default
 <div class="home" style="margin-top: 80px">
     <h1 class="page-heading">Latest News</h1>
     <ul class="post-list">
-        {% for post in paginator.posts %}
-        {% if post.category != 'works' && paginator.page == 1 %}
+        {% for post in site.posts %}
+        {% if post.category != 'works' %}
         <li>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -16,5 +16,4 @@ layout: default
         {% endif %}
         {% endfor %}
     </ul>
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </div>
