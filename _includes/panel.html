@@ -1,10 +1,8 @@
 <div id="panel">
-    <section class="panel-main">
-        <aside id="sidebar">
+   <aside id="sidebar">
             <section class="panel-active">
                 <a href="/" title="查看所有文章">
-                    <i class="fa fa-file-archive-o"></i>
-                    " 最近发表"
+                    <i class="fa fa-file-archive-o"></i> 最近发表
                 </a>
                 <span title="文章总数">{{ site.posts.size }}</span>
                 <ul>
@@ -17,8 +15,7 @@
             </section>
             <section>
                 <a href="/" title="查看所有分类">
-                    <i class="fa fa-folder-open"></i>
-                    " 文章分类"
+                    <i class="fa fa-folder-open"></i> 文章分类
                 </a>
                 <span title="分类总数">{{ site.categories.size }}</span>
                 <ul>
@@ -28,7 +25,7 @@
                 </ul>
             </section>
             <section>
-                <a href="/" title="查看所有标签"><i class="fa fa-tags"></i>" 标签云"</a>
+                <a href="/" title="查看所有标签"><i class="fa fa-tags"></i> 标签云</a>
                 <span title="标签总数">{{ site.tags | size }}</span>
                 <div id="tag-cloud">
                     {% assign first = site.tags.first %}{% assign max = first[1].size %}{% assign min = max %}{% for tag in site.tags offset:1 %}{% if tag[1].size > max %}{% assign max = tag[1].size %}{% elsif tag[1].size < min %}{% assign min = tag[1].size %}{% endif %}{% endfor %}{% assign diff = max | minus: min %}
@@ -39,5 +36,4 @@
                 </div>
             </section>
         </aside>
-    </section>
 </div>

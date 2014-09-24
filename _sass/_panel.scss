@@ -7,6 +7,7 @@
   margin-top: 80px;
   // Positioning context for the mobile navigation icon
   position: relative;
+  background: #e6e6e6;
 }
 
 #sidebar section.active >a {
@@ -53,15 +54,4 @@
 #sidebar section {
   background: url(../images/bg_sidebar.png);
   no-repeat: 0 0px;
-}
-
-.panel-main{
-  width:100%;
-  float:left;
-  margin:20px 0;
-  overflow:hidden;
-  -webkit-box-shadow:2px 2px 12px #787878;
-  box-shadow:2px 2px 12px #787878;
-  border-radius:3px;
-  background: #e6e6e6 url(../images/bg_main.png) repeat-y 263px 0;
 }
