@@ -9,7 +9,7 @@
                 <span title="文章总数">{{ site.posts.size }}</span>
                 <ul>
                     {% for post in paginator.posts limit:5 %}
-                        {% if post.category == 'works' %}
+                        {% if post.category != 'works' %}
                             <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
                         {% endif %}
                     {% endfor %}
@@ -17,15 +17,13 @@
             </section>
             <section>
                 <a href="/" title="查看所有分类">
-                    <i class="fa fa-file-archive-o"></i>
+                    <i class="fa fa-folder-open"></i>
                     " 文章分类"
                 </a>
                 <span title="分类总数">{{ site.categories.size }}</span>
                 <ul>
-                    {% for post in paginator.posts limit:5 %}
-                        {% if post.category == 'works' %}
-                            <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-                        {% endif %}
+                    {% for category in site.categories %}
+                        <li><a href="/" title="{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a></li>
                     {% endfor %}
                 </ul>
             </section>
