@@ -23,8 +23,18 @@
                 <span title="分类总数">{{ site.categories.size }}</span>
                 <ul>
                     {% for category in site.categories %}
-                        <li><a href="/" title="{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a></li>
+                    <li><a href="/" title="{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a></li>
                     {% endfor %}
+                </ul>
+            </section>
+            <section>
+                <a href="/" title="查看所有标签">
+                    <i class="fa fa-tags"></i>
+                    " 标签分类"
+                </a>
+                <span title="标签总数">{{ site.tags.size }}</span>
+                <ul>
+
                 </ul>
             </section>
         </aside>
