@@ -290,6 +290,16 @@ body.nav-hidden {
   }
 }
 
+#post_main{
+  width: 100%;
+  float: left;
+  margin: 20px 0;
+  overflow: hidden;
+  -webkit-box-shadow: 2px 2px 12px #787878;
+  box-shadow: 2px 2px 12px #787878;
+  border-radius: 3px;
+}
+
 // Using media queries with like this:
 // @include media-query($palm) {
 //     .wrapper {
