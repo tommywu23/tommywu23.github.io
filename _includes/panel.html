@@ -7,8 +7,8 @@
            </a>
            <span title="文章总数">{{ site.posts.size }}</span>
            <ul>
-               {% for post in paginator.posts limit:5 %}
-                {% unless post.category == "work" %}
+               {% for post in paginator.posts limit:8 %}
+                {% unless post.categories contains 'work' %}
                     <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
                 {% endunless %}
                {% endfor %}
