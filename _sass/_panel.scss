@@ -9,10 +9,6 @@
   position: relative;
 }
 
-/*#sidebar section {
-  background: url('../images/bg_sidebar.png') no-repeat: 0 0;
-}*/
-
 #sidebar section.active >a {
   color: #ae432e;
 }
@@ -52,6 +48,10 @@
   padding: 3px 0 1px;
   font-size: 85%;
   text-shadow: none;
+}
+
+#sidebar section {
+  background: url(../images/bg_sidebar.png) no-repeat: 0 0px;
 }
 
 .panel-main{
