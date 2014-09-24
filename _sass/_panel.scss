@@ -8,6 +8,10 @@
   // Positioning context for the mobile navigation icon
   position: relative;
   background: #e6e6e6;
+  overflow: hidden;
+  -webkit-box-shadow: 2px 2px 12px #787878;
+  box-shadow: 2px 2px 12px #787878;
+  border-radius: 3px;
 }
 
 #sidebar section.active >a {
