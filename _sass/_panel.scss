@@ -14,6 +14,16 @@
   border-radius: 3px;
 }
 
+#sidebar {
+  width: 271px;
+  height: auto;
+  padding: 20px 0;
+  float: right;
+  font-family: Verdana, Arial, sans-serif, "Hiragino Sans GB", "Microsoft YaHei";
+  font-size: 16px;
+  zoom: 1;
+}
+
 #sidebar section.active >a {
   color: #ae432e;
 }
