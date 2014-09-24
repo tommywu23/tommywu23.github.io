@@ -28,8 +28,11 @@
   background: url(../images/bg_sidebar.png) no-repeat 0 0;
 }
 
-#sidebar section >a {
+#sidebar section.panel-active {
   color: #ae432e;
+}
+
+#sidebar section >a {
   display: block;
   font-weight: bold;
   height: 27px;
@@ -69,6 +72,7 @@
 }
 
 #sidebar section a {
+  color: #444;
   text-decoration: none;
 }
 
