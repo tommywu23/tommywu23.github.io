@@ -24,15 +24,28 @@
   zoom: 1;
 }
 
-#sidebar section.active >a {
+#sidebar section {
+  background: url(../images/bg_sidebar.png) no-repeat 0 0;
+}
+
+#sidebar section >a {
   color: #ae432e;
+  display: block;
+  font-weight: bold;
+  height: 27px;
+  padding: 14px 0 0 18px;
+  -webkit-transition: color 400ms ease;
+  -moz-transition: color 400ms ease;
+  -o-transition: color 400ms ease;
+  -ms-transition: color 400ms ease;
+  transition: color 400ms ease;
+  text-shadow: 0 1px 1px #ccc;
 }
 
 #sidebar section span {
   float: right;
   display: block;
   position: relative;
-  top: -27px;
   padding: 3px 5px 1px;
   background-color: #d1d1d1;
   border: 1px solid #bfbfbf;
@@ -63,9 +76,4 @@
   padding: 3px 0 1px;
   font-size: 85%;
   text-shadow: none;
-}
-
-#sidebar section {
-  background: url(../images/bg_sidebar.png);
-  no-repeat: 0 0px;
 }
