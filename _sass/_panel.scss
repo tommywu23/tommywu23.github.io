@@ -28,7 +28,7 @@
   background: url(../images/bg_sidebar.png) no-repeat 0 0;
 }
 
-#sidebar section.panel-active {
+#sidebar section.panel-active >a {
   color: #ae432e;
 }
 
