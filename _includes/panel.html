@@ -1,6 +1,6 @@
 <div id="panel">
-    <aside id="sidebar">
-        <section class="panel-main">
+    <section class="panel-main">
+        <aside id="sidebar">
             <section class="panel-active">
                 <a href="/" title="查看所有文章">
                     <i class="fa fa-file-archive-o"></i>
@@ -15,7 +15,20 @@
                     {% endfor %}
                 </ul>
             </section>
-
-        </section>
-    </aside>
+            <section>
+                <a href="/" title="查看所有分类">
+                    <i class="fa fa-file-archive-o"></i>
+                    " 文章分类"
+                </a>
+                <span title="分类总数">{{ site.categories.size }}</span>
+                <ul>
+                    {% for post in paginator.posts limit:5 %}
+                        {% if post.category == 'works' %}
+                            <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </section>
+        </aside>
+    </section>
 </div>

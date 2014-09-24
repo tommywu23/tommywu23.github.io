@@ -9,7 +9,7 @@
   position: relative;
 }
 
-#sidebar section {
+/*#sidebar section {
   background: url('../images/bg_sidebar.png') no-repeat: 0 0;
 }
 
@@ -40,7 +40,7 @@
 #sidebar section ul li {
   list-style: none;
   padding-left: 10px;
-  background: url('../images/bg_list_style.png') no-repeat 0 10px;
+  background: url(../images/bg_list_style.png) no-repeat 0 10px;
 }
 
 #sidebar section a {
@@ -52,7 +52,7 @@
   padding: 3px 0 1px;
   font-size: 85%;
   text-shadow: none;
-}
+}*/
 
 .panel-main{
   width:100%;
@@ -62,5 +62,5 @@
   -webkit-box-shadow:2px 2px 12px #787878;
   box-shadow:2px 2px 12px #787878;
   border-radius:3px;
-  background: #e6e6e6 url('../images/bg_main.png') repeat-y 263px 0;
+  background: #e6e6e6 url(../images/bg_main.png) repeat-y 263px 0;
 }
